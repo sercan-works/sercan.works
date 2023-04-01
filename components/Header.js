@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react"
 import { PhoneIcon } from '@heroicons/react/solid'
 import Link from "../node_modules/next/link"
 import { useRouter } from 'next/router';
-import logo from '../assets/img/grb.png'
+import logo from '../assets/img/logo.png'
 import Image from "next/image";
 import { Button, Menu, MenuHandler, MenuItem, MenuList } from "@material-tailwind/react";
 import { useDispatch, useSelector } from "react-redux";
@@ -58,11 +58,11 @@ function Header() {
 
   return (
 
-      <header className={`flex justify-around  flex-col md:flex-row ${detailPage == true ? 'relative bg-gray-400 transition-all bg-opacity-100' : isScrolled && 'bg-gray-200 transition-all ease-in-out delay-150 bg-opacity-95'}`}>
+      <header className={`md:flex justify-around md:z-0 hidden  flex-col md:flex-row ${detailPage == true ? 'relative bg-gray-400 transition-all bg-opacity-80' : isScrolled && 'bg-gray-200 transition-all ease-in-out delay-150 bg-opacity-80'}`}>
 
-        <div className="flex px-5 space-x-2 md:space-x-10 ">
+        <div className="flex px-5 space-x-2 md:space-x-10 opacity-70 ">
           <Link href='/'>
-            <Image src={logo} width={230} height={100} />
+            <Image src={logo} width={230} height={70} />
           </Link>
         </div>
 

@@ -4,14 +4,15 @@ import Image from 'next/image'
 import Header from '../components/Header'
 
 import Slider from '../components/Slider'
+import PhoneBar from '../components/PhoneBar'
 
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>GRB</title>
-        <meta name="description" content="Garibi resmi sayfası" />
+        <title>Sercan Taş | Official</title>
+        <meta name="description" content="Sercan Taş" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -20,6 +21,7 @@ export default function Home() {
         <hr/>
         <Slider/>
 
+        <PhoneBar/>
 
 
 
