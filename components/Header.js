@@ -70,21 +70,14 @@ function Header() {
 
 
           <Link href='/'>
-            <p className="cursor-pointer hover:border-b-2 hover:border-b-gray-500  ">ANASAYFA</p>
+            <p className="cursor-pointer hover:border-b-2 hover:border-b-gray-500  ">PORTFOLYO</p>
 
           </Link>
 
           <Link href='/'>
-            <p className="cursor-pointer hover:border-b-2 hover:border-b-gray-500  ">ESERLERİMİZ</p>
+            <p className="cursor-pointer hover:border-b-2 hover:border-b-gray-500  ">HAKKIMDA</p>
 
           </Link>
-
-
-          <Link href='/'>
-            <p className="cursor-pointer hover:border-b-2 hover:border-b-gray-500  ">HAKKIMIZDA</p>
-
-          </Link>
-
 
           <Link href='/'>
             <p className="cursor-pointer hover:border-b-2 hover:border-b-gray-500  ">İLETİŞİM</p>

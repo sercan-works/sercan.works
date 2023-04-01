@@ -2,7 +2,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
-import PlayerMain from '../components/PlayerMain'
+
 import Slider from '../components/Slider'
 
 
